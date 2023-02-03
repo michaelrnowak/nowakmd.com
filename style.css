@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap');
+html {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+body {
+  background-color: #eee;
+}
+h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-weight:500;line-height:1.2}
+.h1,h1{font-size:1.8rem}
+.h2,h2{font-size:1.3rem}
+.h3,h3{font-size:1.1rem}
+.h4,h4{font-size:1rem}
+.h5,h5{font-size:1rem}
+.h6,h6{font-size:1rem}
+
+.content-wrapper {
+  background-color: white;
+  padding: 2em;
+  max-width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content > * {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content > p {
+  max-width: 50%px;
+}
+
+.content figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.content figure img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content figcaption {
+  margin-top: 1em;
+  font-size: 14px;
+  text-align: center;
+}
